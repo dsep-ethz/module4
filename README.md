@@ -1,7 +1,5 @@
 # Causal inference for conservation: do protected areas reduce deforestation?
 
-Five units, each a lecture and a hands-on activity, all using one dataset: protected areas and forest loss in Belize, 2001–2023.
-
 ## Quick start
 
 1. Open `causal-inference-pa.Rproj` in RStudio (or set the working directory to this folder).
@@ -74,7 +72,6 @@ Columns in `cells.rds`:
 
 - **Few treated cells for DiD (Unit 4):** only about 100 cells are in parks designated after 2005, so expect a small, noisy sample. Widen the designation window you use.
 - **`rdrobust` finds too few cells (Unit 2):** widen the 10 km window.
-- **Model code uses the wrong `pop` or `elev`:** if a raster from Unit 0 with the same name is in your session, it can be picked up instead of the column. Restart R, or see the note in `03_matching.qmd`.
 
 ### Re-creating the data (instructors only)
 

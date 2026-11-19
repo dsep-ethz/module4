@@ -11,7 +11,7 @@ execute:
 ---
 
 Build a comparison group of unprotected cells that look like protected ones on the confounders from your DAG. Run `00_layers.qmd` first.
-
+ Run `00_layers.qmd` first.
 ![Concept: compare protected cells with unprotected cells that look like them.](figures/03_matching.png){#fig-concept fig-alt="Concept: compare protected cells with unprotected cells that look like them."}
 
 ```{r}

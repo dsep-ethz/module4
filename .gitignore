@@ -1,0 +1,14 @@
+data/*
+!data/README.txt
+.Rproj.user/
+.Rhistory
+*_files/
+*.html
+
+/.quarto/
+**/*.quarto_ipynb
+.Rproj.user
+.RData
+.httr-oauth
+.DS_Store
+.quarto

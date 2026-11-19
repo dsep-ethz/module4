@@ -1,7 +1,5 @@
 # Causal inference for conservation: do protected areas reduce deforestation?
 
-Five units, each a lecture and a hands-on activity, all using one dataset: protected areas and forest loss in Belize, 2001–2023.
-
 ## Quick start
 
 1. Open `causal-inference-pa.Rproj` in RStudio (or set the working directory to this folder).
